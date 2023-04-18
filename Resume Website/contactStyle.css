@@ -1,0 +1,52 @@
+.Header {
+    height: 30vh;
+}
+
+.banner-about {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 200px; /* add 10px space between items */
+}
+
+.banner-about .linkin {
+    color: inherit;
+    width: 80px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-about .linkin a {
+    color: inherit;
+}
+
+.banner-about .email {
+    width: 280px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-about .website {
+    color: inherit;
+    width: 80px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-about .website a {
+    color: inherit;
+}
+
+@media only screen and (max-width: 900px) {
+    .banner-about {
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px; /* add 10px space between items */
+    }
+    
+}

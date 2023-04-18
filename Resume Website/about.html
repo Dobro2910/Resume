@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+</head>
+<body>
+    <div class="Header">
+        <div class="logo">
+            <a href="index.html">My Resume</a>
+        </div>
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <li><a href="#" class="phone-number">+61 479-059-665</a></li>
+                    <li><a href="#" class="sep">/</a></li>
+                    <li><a href="#" class="email">HoangNamVu3778@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class= "banner-about">
+        <div class="about-text">
+            <a> Complex problem-solver with analytical and driven mindset. Dedicated to achieving demanding development objectives according to tight 
+                schedules while producing impeccable code. Detail-oriented, organized and meticulous employee. Works at fast pace to meet tight deadlines. 
+                Enthusiastic team player ready to contribute to company success.
+            </a>
+        </div>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
