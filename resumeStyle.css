@@ -1,0 +1,15 @@
+.Header {
+    height: 30vh;
+}
+
+.banner-about {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-about .about-text img {
+    width: 600px;
+    height: 800px;
+}
+
