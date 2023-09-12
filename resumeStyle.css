@@ -22,7 +22,7 @@
     
 } */
 
-@media only screen 
+/* @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -31,5 +31,11 @@
         height: 400px;
     }
 
+} */
+@media screen and (max-width: 600px) {
+    .banner-about .about-text embed {
+        width: 300px; /* Adjust to your preferred width */
+        height: 500px; /* Adjust to your preferred height */
+    }
 }
 
