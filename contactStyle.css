@@ -40,13 +40,45 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .Header {
+        height: 30vh;
+    }
+
+    .banner-about .linkin {
+        color: #c328;
+    }
+
+    .banner-about .linkin a:hover {
+        color: #fff;
+        opacity: 0.3;
+    }
+
+    .banner-about .email {
+        color: #c328;;
+    }
+
+    .banner-about .email a:hover {
+        color: #fff;
+        opacity: 0.3;
+    }
+
+    .banner-about .website {
+        color: #c328;
+    }
+
+    .banner-about .website a:hover {
+        color: #fff;
+        opacity: 0.3;
+    }
+
     .banner-about {
         height: 70vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 50px; /* add 10px space between items */
+        gap: 70px; /* add 10px space between items */
     }
     
 }

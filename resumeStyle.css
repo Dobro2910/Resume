@@ -1,5 +1,5 @@
 .Header {
-    height: 30vh;
+    height: 15vh;
 }
 
 .banner-about {
@@ -8,8 +8,17 @@
     justify-content: center;
 }
 
-.banner-about .about-text img {
+.banner-about .about-text embed {
     width: 600px;
     height: 800px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .banner-about .about-text embed {
+        width: 300px;
+        height: 500px;
+    }
+    
 }
 

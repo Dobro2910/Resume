@@ -13,8 +13,8 @@ ul {
 }
 
 body {
-    height: auto;
-    width: auto;
+    height: 1000px;
+    width: 100%;
     background-image: url(images/background4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,6 +156,11 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+    body {
+        height: 900px;
+        background-image: url(images/new.webp);
+    }
+
     .hamburger {
         display: block;
         position: fixed;
@@ -168,7 +173,7 @@ body {
     .hamburger .line {
         width: 30px;
         height: 3px;
-        background-color: #fff;
+        background-color: #c328;
         margin: 6px 0;
     }
 
@@ -222,4 +227,8 @@ body {
     .Header .banner img {
         display: none;
     }  
+
+    .Header .banner .app-text {
+        padding-left: 200px;
+    }
 }
